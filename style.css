@@ -1,0 +1,29 @@
+:root{
+  --base: #ffff00;
+  --spacing: 10px;
+  --blur: 5px;
+}
+body {
+    text-align: center;
+    background:url('https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3132&q=80') no-repeat top center / cover;
+    color: rgb(255, 255, 255);
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: 'Instrument Serif', serif;
+  }
+  .controls {
+    margin-bottom: 50px;
+  }
+  input {
+    width: 100px;
+  }
+  img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
+  .highlight{
+    color: var(--base);
+  }
